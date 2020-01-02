@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Youtube teste</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="Comps/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="Comps/basic.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="Comps/semantic.min.js"></script>
+</head>
+
+<body>
+  <div class="ui borderless top fixed menu">
+    <a class="item" id="menu-side">
+      <i class="large bars icon"></i>
+    </a>
+    <script>
+      var el = document.getElementById('menu-side');
+      el.addEventListener('click', function () {
+        $('.ui.sidebar')
+          .sidebar('toggle');
+      });
+    </script>
+    <a class="item" href="./">
+      <img src="https://www.freepnglogos.com/uploads/youtube-logo-transparent-10.png">
+    </a>
+    <div class="item">
+      <div class="ui icon input">
+        <input type="text" placeholder="Search...">
+        <i class="search link icon"></i>
+      </div>
+    </div>
+    <div class="right menu">
+      <a class="ui item">
+        <i class="large video icon"></i>
+      </a>
+      <a class="ui item">
+        <i class="big th icon"></i>
+      </a>
+      <a class="ui item">
+        <i class="black large bell icon"></i>
+      </a>
+      <a class="ui item">
+        <img class="ui avatar image" src="https://avatars1.githubusercontent.com/u/40145391?s=460&v=4">
+      </a>
+    </div>
+  </div>
+  <!-- FIm Menu -->
+  <div class="ui sidebar inverted vertical menu">
+    <a class="item">
+      1
+    </a>
+    <a class="item">
+      2
+    </a>
+    <a class="item">
+      3
+    </a>
+  </div>
+
+  <!--  -->
+  <div class="Space"></div>
+  <div class="ui four column doubling stackable grid container">
+    <div class="column">
+      <a href="./video.html">
+        <img class="ui medium rounded image"
+          src="https://i.ytimg.com/an_webp/qtZxeULTsT0/mqdefault_6s.webp?du=3000&sqp=COPtt_AF&rs=AOn4CLAIiepzFyxqlpEGBUrWuJj7fX-egQ">
+        <div class="Thunb-spc">
+          <div class="ui four column grid">
+            <div class="row">
+              <div class="column"><img class="perfil"
+                  src="https://yt3.ggpht.com/a-/AAuE7mA-yFnEbMYHEha2NKPzcUw3jbaqNxKRlKsOWw=s68-c-k-c0x00ffffff-no-rj-mo">
+              </div>
+              <div class="ten wide column">
+                <h5>LEVEI MINHAS RATAS PRO PALCO-Comédia Stand up</h5>
+                <span>
+                  <p>Gabriel Andrade</p>
+                  <p class="info">152 mil visualizações • há 6 meses</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
