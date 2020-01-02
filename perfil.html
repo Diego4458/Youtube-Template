@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Perfil</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="Comps/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="Comps/basic.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="Comps/semantic.min.js"></script>
+</head>
+
+<body>
+  <div class="ui borderless top fixed menu">
+    <a class="item" id="menu-side">
+      <i class="large bars icon"></i>
+    </a>
+    <script>
+      var el = document.getElementById('menu-side');
+      el.addEventListener('click', function () {
+        $('.ui.sidebar')
+          .sidebar('toggle');
+      });
+    </script>
+    <a class="item" href="./">
+      <img src="https://www.freepnglogos.com/uploads/youtube-logo-transparent-10.png">
+    </a>
+    <div class="item">
+      <div class="ui icon input">
+        <input type="text" placeholder="Search...">
+        <i class="search link icon"></i>
+      </div>
+    </div>
+    <div class="right menu">
+      <a class="ui item">
+        <i class="large video icon"></i>
+      </a>
+      <a class="ui item">
+        <i class="big th icon"></i>
+      </a>
+      <a class="ui item">
+        <i class="black large bell icon"></i>
+      </a>
+      <a class="ui item">
+        <img class="ui avatar image" src="https://avatars1.githubusercontent.com/u/40145391?s=460&v=4">
+      </a>
+    </div>
+  </div>
+  <!-- FIm Menu -->
+  <div class="ui sidebar inverted vertical menu">
+    <a class="item">
+      1
+    </a>
+    <a class="item">
+      2
+    </a>
+    <a class="item">
+      3
+    </a>
+  </div>
+
+  <div class="ui grid">
+    <div class="column">
+      <!-- Imagem Background -->
+      <div class="cover">
+        <div class="cover-photo"
+          style="background-image: url(https://www.progeeksblog.com/wp-content/uploads/2016/06/Channel-Art-Template.png)">
+        </div>
+      </div>
+      <div class="ui two column centered grid">
+        <div class="column">
+          <div class="title"></div>
+          <div class="ui items">
+            <div class="item">
+              <img class="perfil esp"
+                src="https://yt3.ggpht.com/a-/AAuE7mA-yFnEbMYHEha2NKPzcUw3jbaqNxKRlKsOWw=s68-c-k-c0x00ffffff-no-rj-mo">
+              <div class="content">
+                <a class="header">Diego Dev</a>
+                <div class="meta">
+                  <span>48k Inscritos</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Foto -->
+        </div>
+        <div class="Concerto">
+          <div class="ui labeled button insc" tabindex="0">
+            <div class="ui red button insc">
+              <i class="heart icon insc"></i> Inscreva-se
+            </div>
+            <a class="ui basic red left pointing label insc">
+              1,048
+            </a>
+          </div>
+          <button class="ui button insc">Youtube-Studio</button>
+        </div>
+      </div>
+      <!-- Fim Botão -->
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

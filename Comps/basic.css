@@ -33,3 +33,52 @@
 .Dalemarcio{
   padding-top: 10px;
 }
+
+.chanel-name{
+  font-size: 20px;
+  color: black;
+}
+
+.esp{
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+.cover{
+  height: 300px;
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.cover-photo{
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+  background-position-x: center !important;
+  background-position-y: center !important;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.insc{
+  height: 40px;
+}
+
+.extra{
+  padding-left: 10px;
+}
+.header{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.meta{
+  padding-left: 10px;
+}
+
+.Concerto{
+  padding-top: 50px;
+}
